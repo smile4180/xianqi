@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.pytest_tmp/
+db/*.db
+db/*.db-*
+db/backups/*
+!db/backups/.gitkeep
+logs/*
+!logs/.gitkeep
+config/local.toml
+miniprogram/config/local.js
+project.private.config.json
+.DS_Store
+
