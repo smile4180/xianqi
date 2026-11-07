@@ -1,0 +1,4 @@
+<view wx:if="{{state !== 'idle'}}" class="panel {{state}}" role="status">
+  <view>{{state === 'loading' ? '正在加载…' : message}}</view>
+  <button wx:if="{{state === 'error'}}" bindtap="retry" class="retry">重新加载</button>
+</view>

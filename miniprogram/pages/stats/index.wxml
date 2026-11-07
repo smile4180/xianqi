@@ -1,0 +1,4 @@
+<view class="page">
+  <page-header title="处理统计" subtitle="回顾食品与药品的处理记录" />
+  <module-placeholder title="库存处理统计" description="按物品类型与单位查看处理数量、计划完成情况和提醒处理情况。" />
+</view>

@@ -1,0 +1,4 @@
+.panel { padding: 24rpx; border-radius: 20rpx; margin-bottom: 24rpx; font-size: 26rpx; line-height: 1.7; background: #edf4ec; color: #28664b; overflow-wrap: break-word; }
+.error { background: #fbede7; color: #924b35; }
+.retry { margin-top: 18rpx; background: #fff; color: #924b35; font-size: 26rpx; border-radius: 12rpx; }
+.retry::after { border: 0; }

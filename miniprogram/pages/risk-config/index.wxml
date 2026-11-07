@@ -1,0 +1,4 @@
+<view class="page">
+  <page-header title="风险参数" subtitle="查看与调整评估参数" />
+  <module-placeholder title="参数与版本" description="预览参数变化，查看不同版本的评估设置。" />
+</view>

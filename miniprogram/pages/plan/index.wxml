@@ -1,0 +1,4 @@
+<view class="page">
+  <page-header title="七日计划" subtitle="在每日处理容量内安排食品" />
+  <module-placeholder title="食品处理计划" description="生成七日安排，查看、调整和完成每天的食品计划。" />
+</view>

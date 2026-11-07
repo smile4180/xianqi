@@ -1,0 +1,6 @@
+<view class="placeholder">
+  <view class="badge">开发中</view>
+  <view class="title">{{title}}</view>
+  <view class="description">{{description}}</view>
+  <view class="footnote">该功能尚未开放</view>
+</view>

@@ -1,0 +1,4 @@
+<view class="page">
+  <page-header title="风险详情" subtitle="查看单个批次的评分依据" />
+  <module-placeholder title="评分详情" description="查看期限、开封状态、数量、储存信息与历史提醒的评分贡献。" />
+</view>

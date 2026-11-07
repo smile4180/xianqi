@@ -1,0 +1,11 @@
+<view class="page">
+  <page-header title="鲜期管家" subtitle="食品与药品的库存、期限与处理记录" />
+  <module-placeholder title="今日概览" description="在这里查看临期物品、未读提醒与今日食品计划。" />
+  <view class="card">
+    <view class="section-title">常用入口</view>
+    <button wx:for="{{entries}}" wx:key="key" class="nav-row" data-route="{{item.key}}" bindtap="openPage">
+      <view><view>{{item.title}}</view><view class="muted">{{item.subtitle}}</view></view>
+      <text class="arrow">›</text>
+    </button>
+  </view>
+</view>

@@ -1,0 +1,3 @@
+.tabs { display: flex; padding: 8rpx; background: #e9eee5; border-radius: 20rpx; margin-bottom: 28rpx; }
+.tab { flex: 1; margin: 0; background: transparent; border-radius: 16rpx; color: #6d7a71; }
+.tab.active { background: #fff; color: #28664b; font-weight: 600; }

@@ -1,0 +1,4 @@
+<view class="page">
+  <page-header title="提醒中心" subtitle="集中查看食品、药品与食品计划提醒" />
+  <module-placeholder title="提醒记录" description="临期、过期、信息待补充、低库存、停用与计划待办。" />
+</view>

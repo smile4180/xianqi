@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/inventory/index",
+    "pages/reminders/index",
+    "pages/plan/index",
+    "pages/risk/index",
+    "pages/risk-detail/index",
+    "pages/risk-config/index",
+    "pages/stats/index",
+    "pages/settings/index",
+    "pages/item-detail/index",
+    "pages/item-form/index",
+    "pages/events/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "鲜期管家",
+    "navigationBarBackgroundColor": "#f6f8f4",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f6f8f4",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#64736c",
+    "selectedColor": "#28664b",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      { "pagePath": "pages/home/index", "text": "首页" },
+      { "pagePath": "pages/inventory/index", "text": "库存" },
+      { "pagePath": "pages/reminders/index", "text": "提醒" },
+      { "pagePath": "pages/plan/index", "text": "计划" }
+    ]
+  },
+  "usingComponents": {
+    "page-header": "/components/page-header/index",
+    "module-placeholder": "/components/module-placeholder/index",
+    "state-panel": "/components/state-panel/index"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "lazyCodeLoading": "requiredComponents"
+}

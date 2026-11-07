@@ -1,0 +1,11 @@
+<view class="page">
+  <page-header title="我的设置" subtitle="提醒偏好与服务连接" />
+  <view class="card">
+    <view class="section-title">服务连接</view>
+    <view class="muted">检查当前设备是否可以连接鲜期管家服务。</view>
+    <button class="secondary-button" loading="{{state === 'loading'}}" disabled="{{state === 'loading'}}" bindtap="checkConnection">检查连接</button>
+    <view wx:if="{{calculationDate}}" class="connection-detail">当前计算日期：{{calculationDate}}<view>服务时间：{{serverTime}}</view></view>
+  </view>
+  <state-panel state="{{state}}" message="{{message}}" bind:retry="checkConnection" />
+  <module-placeholder title="提醒偏好" description="设置食品与药品的提醒提前量，以及低库存和食品计划提醒。" />
+</view>

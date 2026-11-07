@@ -1,0 +1,4 @@
+<view class="page">
+  <page-header title="批次详情" subtitle="查看食品或药品的批次信息" />
+  <module-placeholder title="批次信息" description="查看库存、日期、开封状态和处理记录。" />
+</view>

@@ -1,0 +1,9 @@
+<view class="page">
+  <page-header title="库存" subtitle="食品与药品分开记录，按批次查看" />
+  <view class="tabs">
+    <button class="tab {{itemType === 'FOOD' ? 'active' : ''}}" data-type="FOOD" bindtap="changeType">食品</button>
+    <button class="tab {{itemType === 'MEDICINE' ? 'active' : ''}}" data-type="MEDICINE" bindtap="changeType">药品</button>
+  </view>
+  <module-placeholder wx:if="{{itemType === 'FOOD'}}" title="食品库存" description="食品建档、开封记录、期限与食用或丢弃记录。" />
+  <module-placeholder wx:else title="药品库存" description="药品批次、开封期限、领用、停用与处置记录。" />
+</view>

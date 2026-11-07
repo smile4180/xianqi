@@ -1,0 +1,4 @@
+{
+  "desc": "课程开发版本暂不参与搜索索引",
+  "rules": [{ "action": "disallow", "page": "*" }]
+}

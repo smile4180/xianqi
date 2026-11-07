@@ -1,0 +1,5 @@
+.placeholder { background: #fff; border: 1rpx solid #e5ebe2; border-radius: 28rpx; padding: 48rpx 32rpx; margin-bottom: 24rpx; }
+.badge { display: inline-block; color: #7d6337; background: #faf3df; padding: 4rpx 18rpx; border-radius: 99rpx; font-size: 22rpx; }
+.title { margin-top: 24rpx; font-size: 34rpx; font-weight: 600; }
+.description { margin-top: 16rpx; color: #6d7a71; font-size: 27rpx; line-height: 1.8; }
+.footnote { margin-top: 40rpx; font-size: 24rpx; color: #6d7a71; }

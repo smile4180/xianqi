@@ -1,0 +1,5 @@
+<view class="page">
+  <page-header title="风险评估" subtitle="了解库存的处理优先级与原因" />
+  <module-placeholder title="综合风险评估" description="查看评分、分级与信息完整率，了解需要优先处理的物品。" />
+  <button class="secondary-button" bindtap="openConfig">查看风险参数</button>
+</view>

@@ -1,0 +1,4 @@
+<view class="page">
+  <page-header title="库存记录" subtitle="回顾一个批次的历史操作" />
+  <module-placeholder title="操作记录" description="查看建档、修改、开封及后续处理记录。" />
+</view>
