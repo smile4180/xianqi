@@ -1,0 +1,15 @@
+{
+  "description": "鲜期管家微信小程序框架",
+  "projectname": "xqqj",
+  "appid": "touristappid",
+  "compileType": "miniprogram",
+  "miniprogramRoot": "miniprogram/",
+  "setting": {
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true,
+    "urlCheck": true
+  },
+  "packOptions": { "ignore": [], "include": [] }
+}

@@ -1,0 +1,226 @@
+[
+  {
+    "method": "GET",
+    "path": "/api/food/items",
+    "module": "foodstock",
+    "operation": "list_items",
+    "title": "食品批次列表"
+  },
+  {
+    "method": "POST",
+    "path": "/api/food/items",
+    "module": "foodstock",
+    "operation": "create_item",
+    "title": "食品建档"
+  },
+  {
+    "method": "GET",
+    "path": "/api/food/items/{item_id}",
+    "module": "foodstock",
+    "operation": "get_item",
+    "title": "食品详情"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/food/items/{item_id}",
+    "module": "foodstock",
+    "operation": "update_item",
+    "title": "编辑食品"
+  },
+  {
+    "method": "POST",
+    "path": "/api/food/items/{item_id}/open",
+    "module": "foodstock",
+    "operation": "open_item",
+    "title": "食品开封"
+  },
+  {
+    "method": "POST",
+    "path": "/api/food/items/{item_id}/process",
+    "module": "foodstock",
+    "operation": "process_item",
+    "title": "食品处理"
+  },
+  {
+    "method": "GET",
+    "path": "/api/medicine/items",
+    "module": "medicinestock",
+    "operation": "list_items",
+    "title": "药品批次列表"
+  },
+  {
+    "method": "POST",
+    "path": "/api/medicine/items",
+    "module": "medicinestock",
+    "operation": "create_item",
+    "title": "药品建档"
+  },
+  {
+    "method": "GET",
+    "path": "/api/medicine/items/{item_id}",
+    "module": "medicinestock",
+    "operation": "get_item",
+    "title": "药品详情"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/medicine/items/{item_id}",
+    "module": "medicinestock",
+    "operation": "update_item",
+    "title": "编辑药品"
+  },
+  {
+    "method": "POST",
+    "path": "/api/medicine/items/{item_id}/open",
+    "module": "medicinestock",
+    "operation": "open_item",
+    "title": "药品开封"
+  },
+  {
+    "method": "POST",
+    "path": "/api/medicine/items/{item_id}/action",
+    "module": "medicinestock",
+    "operation": "process_item",
+    "title": "药品处理"
+  },
+  {
+    "method": "POST",
+    "path": "/api/risk/refresh",
+    "module": "riskeval",
+    "operation": "refresh_all",
+    "title": "风险全量刷新"
+  },
+  {
+    "method": "POST",
+    "path": "/api/risk/refresh/{item_id}",
+    "module": "riskeval",
+    "operation": "refresh_item",
+    "title": "单批次风险刷新"
+  },
+  {
+    "method": "GET",
+    "path": "/api/risk/snapshots",
+    "module": "riskeval",
+    "operation": "list_snapshots",
+    "title": "风险列表"
+  },
+  {
+    "method": "GET",
+    "path": "/api/risk/snapshots/{item_id}",
+    "module": "riskeval",
+    "operation": "get_snapshot",
+    "title": "风险详情"
+  },
+  {
+    "method": "GET",
+    "path": "/api/risk/config",
+    "module": "riskeval",
+    "operation": "get_config",
+    "title": "风险参数查询"
+  },
+  {
+    "method": "POST",
+    "path": "/api/risk/config",
+    "module": "riskeval",
+    "operation": "save_config",
+    "title": "保存风险参数"
+  },
+  {
+    "method": "POST",
+    "path": "/api/risk/config/preview",
+    "module": "riskeval",
+    "operation": "preview_config",
+    "title": "风险参数预览"
+  },
+  {
+    "method": "GET",
+    "path": "/api/reminders",
+    "module": "remindercenter",
+    "operation": "list_reminders",
+    "title": "提醒列表"
+  },
+  {
+    "method": "POST",
+    "path": "/api/reminders/{reminder_id}/action",
+    "module": "remindercenter",
+    "operation": "process_reminder",
+    "title": "处理提醒"
+  },
+  {
+    "method": "GET",
+    "path": "/api/reminder/preferences",
+    "module": "remindercenter",
+    "operation": "get_preferences",
+    "title": "提醒偏好查询"
+  },
+  {
+    "method": "PUT",
+    "path": "/api/reminder/preferences",
+    "module": "remindercenter",
+    "operation": "save_preferences",
+    "title": "保存提醒偏好"
+  },
+  {
+    "method": "POST",
+    "path": "/api/plans/generate",
+    "module": "planstats",
+    "operation": "generate_plan",
+    "title": "生成计划"
+  },
+  {
+    "method": "GET",
+    "path": "/api/plans/current",
+    "module": "planstats",
+    "operation": "get_current_plan",
+    "title": "当前计划"
+  },
+  {
+    "method": "GET",
+    "path": "/api/plans/{plan_id}/entries",
+    "module": "planstats",
+    "operation": "list_entries",
+    "title": "计划项查询"
+  },
+  {
+    "method": "POST",
+    "path": "/api/plans/entries/{entry_id}/action",
+    "module": "planstats",
+    "operation": "process_entry",
+    "title": "处理计划项"
+  },
+  {
+    "method": "POST",
+    "path": "/api/plans/{plan_id}/reschedule",
+    "module": "planstats",
+    "operation": "reschedule_plan",
+    "title": "重新安排计划"
+  },
+  {
+    "method": "GET",
+    "path": "/api/summary",
+    "module": "planstats",
+    "operation": "get_summary",
+    "title": "首页摘要"
+  },
+  {
+    "method": "GET",
+    "path": "/api/stats",
+    "module": "planstats",
+    "operation": "get_stats",
+    "title": "处理统计"
+  },
+  {
+    "method": "GET",
+    "path": "/api/categories",
+    "module": "foodstock",
+    "operation": "list_categories",
+    "title": "食品药品类别查询"
+  },
+  {
+    "method": "GET",
+    "path": "/api/items/{item_id}/events",
+    "module": "foodstock",
+    "operation": "list_events",
+    "title": "库存事件查询"
+  }
+]

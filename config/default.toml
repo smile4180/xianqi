@@ -1,0 +1,8 @@
+# 相对路径均以项目根目录为基准。
+database = "db/xqqj.db"
+host = "127.0.0.1"
+port = 5000
+timezone = "Asia/Shanghai"
+# 空字符串表示使用真实日期；固定演示日只影响业务计算，不影响实际时间戳。
+demo_date = ""
+
